@@ -1,0 +1,12 @@
+Given the list of numbers, you are to sort them in non decreasing order.
+# cook your dish here
+t=int(input())
+list=[]
+while(t>0):
+ n= int(input())
+ list.append(n)
+ t-=1
+ 
+list = sorted(list)
+for i in list:
+ print(i)
