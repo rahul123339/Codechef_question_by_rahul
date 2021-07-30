@@ -1,0 +1,11 @@
+# cook your dish here
+import math
+t=int(input())
+for i in range(t):
+    n=int(input())
+    for i in range(n):
+        x,y=map(int,input().split())
+        mag=math.sqrt(x*x+y*y)
+        cal=int(10**9/mag)
+        print(x*cal,' ',y*cal)
+ 
